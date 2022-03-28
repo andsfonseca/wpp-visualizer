@@ -1,13 +1,13 @@
 {
-    "secretKey": "THISISMYSECURETOKEN",
+    "secretKey": "obyocijfvnwrakjainla",
     "host": "http://localhost",
     "port": "21465",
-    "deviceName": "WppConnect",
+    "deviceName": "Wpp-Visualizer",
     "startAllSession": true,
     "tokenStoreType": "file",
     "maxListeners": 15,
     "webhook": {
-      "url": null,
+      "url": "http://localhost:8000/callback/wpp-connect",
       "autoDownload": true,
       "uploadS3": false,
       "readMessage": true,
