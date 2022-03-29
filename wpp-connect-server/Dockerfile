@@ -8,7 +8,7 @@ RUN apk update && \
     apk add chromium && \
     apk add git
 
-RUN git clone https://github.com/wppconnect-team/wppconnect-server.git && \
+RUN git clone --branch v1.1.23 https://github.com/wppconnect-team/wppconnect-server.git && \
     mv ./wppconnect-server  ./app
 
 WORKDIR /home/node/app
